@@ -1,0 +1,11 @@
+# 实况照片合并器 - 依赖
+# 核心功能（Motion Photo / LIVP）无需额外依赖，Python 标准库即可运行
+
+# 图片处理（支持 PNG/WebP 转 JPG）
+Pillow>=10.0.0
+
+# HEIC/HEIF 格式支持（iPhone 拍摄的照片默认是 HEIC 格式，必须安装）
+pillow-heif>=0.13.0
+
+# 可选：打包成 exe 用
+# pyinstaller>=6.0.0
